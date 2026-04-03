@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成绩管理系统 - 服务器状态</title>
+    <style>
+        /* 全局样式 - Metro UI 基础 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #1E90FF; /* Win8 经典主色调 */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Metro 磁贴容器 */
+        .metro-tile {
+            width: 600px;
+            height: 280px;
+            background-color: #0078D7; /* Win8 官方磁贴蓝色 */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Metro 阴影效果 */
+            border: none;
+            transition: transform 0.2s ease;
+        }
+
+        /* 磁贴悬浮效果 */
+        .metro-tile:hover {
+            transform: scale(1.02);
+        }
+
+        /* 标题样式 */
+        .system-title {
+            font-size: 36px;
+            font-weight: 300; /* Metro 轻量字体 */
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        /* 状态文字样式 */
+        .status-text {
+            font-size: 28px;
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        /* 正常状态指示器 */
+        .status-indicator {
+            width: 20px;
+            height: 20px;
+            background-color: #32CD32; /* 绿色正常标识 */
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Win8 Metro 磁贴 -->
+    <div class="metro-tile">
+        <h1 class="system-title">成绩管理系统</h1>
+        <p class="status-text">
+            <span class="status-indicator"></span>
+            服务器状态正常
+        </p>
+    </div>
+</body>
+</html>
