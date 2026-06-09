@@ -7,5 +7,5 @@
   "late_minutes": 2,
   "submit_before_end_minutes": 3,
   "status": "not_started",
-  "force_submit": false
+  "force_submit": true
 }
