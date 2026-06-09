@@ -1,0 +1,11 @@
+{
+  "exam_name": "信息技术",
+  "exam_url": "https://ks.wjx.com/vm/PpfuHM1.aspx#",
+  "exam_description": "测试",
+  "start_time": "00:21:10",
+  "end_time": "00:21:15",
+  "late_minutes": 2,
+  "submit_before_end_minutes": 3,
+  "status": "not_started",
+  "force_submit": false
+}
